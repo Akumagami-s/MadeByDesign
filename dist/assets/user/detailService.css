@@ -81,3 +81,43 @@
 #app #main .page-heading .section .formDetailService {
   width: 30%;
 }
+
+@media screen and (max-width: 992px) {
+  #app #main .page-heading .section {
+    display: flex;
+    flex-direction: column;
+  }
+  #app #main .page-heading .section .detailService {
+    width: 100%;
+    margin-right: 0;
+  }
+  #app #main .page-heading .section .detailService .card-body .informationService {
+    width: 100%;
+  }
+  #app #main .page-heading .section .formDetailService {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #app #main .page-heading .section {
+    display: flex;
+    flex-direction: column;
+  }
+  #app #main .page-heading .section .detailService {
+    width: 100%;
+    margin-right: 0;
+  }
+  #app #main .page-heading .section .detailService .card-body {
+    flex-direction: column;
+  }
+  #app #main .page-heading .section .detailService .card-body .imagesService {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  #app #main .page-heading .section .detailService .card-body .imagesService img {
+    max-width: none !important;
+    width: 100%;
+  }
+}
