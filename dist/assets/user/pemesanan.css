@@ -134,5 +134,6 @@
   }
   #app #main .section .card .card-body .detailServiceInformation .detailPriceService {
     font-size: 10px;
+    padding: 0 0 0 .7rem;
   }
 }
