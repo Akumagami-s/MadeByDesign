@@ -31,3 +31,25 @@
         }
     }
 }
+
+@media screen and (max-width :576px) {
+    #app {
+        #main {
+            .section {
+                .card {
+                    .card-header {
+                        .imgProfile {
+                            margin-bottom: 1.5rem;
+                            img {
+                                max-width: 164px;
+                            }
+                        }
+                        .btnChange {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

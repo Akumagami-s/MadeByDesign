@@ -25,3 +25,15 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+@media screen and (max-width: 576px) {
+  #app #main .section .card .card-header .imgProfile {
+    margin-bottom: 1.5rem;
+  }
+  #app #main .section .card .card-header .imgProfile img {
+    max-width: 164px;
+  }
+  #app #main .section .card .card-header .btnChange {
+    font-size: 14px;
+  }
+}
