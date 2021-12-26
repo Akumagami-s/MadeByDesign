@@ -17,6 +17,21 @@
                         }
                     }
                 }
+                .card-body {
+                    .table-responsive {
+                        .table {
+                            tbody {
+                                tr {
+                                    .btnAction {
+                                        button {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
             .detailServiceOrdered {
                 width: 30%;

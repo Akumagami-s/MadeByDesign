@@ -20,6 +20,10 @@
   margin-left: .3rem;
 }
 
+#app #main .section .revisiTable .card-body .table-responsive .table tbody tr .btnAction button {
+  font-size: 14px;
+}
+
 #app #main .section .detailServiceOrdered {
   width: 30%;
 }
