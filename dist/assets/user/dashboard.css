@@ -1,3 +1,24 @@
+#app #main .page-heading .page-title .row .imagesUser {
+  width: 100%;
+  max-width: 48px;
+  max-width: 48px;
+  border-radius: 50%;
+  margin-right: .7rem;
+}
+
+#app #main .page-heading .page-title .row h3 {
+  margin-bottom: 0;
+}
+
+#app #main .section .card {
+  background: none !important;
+}
+
+#app #main .section .card .card-header {
+  background: none !important;
+  padding: 0;
+}
+
 #app #main .section .card .card-body {
   display: flex;
   width: 100%;
@@ -7,13 +28,14 @@
 
 #app #main .section .card .card-body .cards {
   width: 100%;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  border-radius: 24px;
+  border-radius: 8px;
+  background: #fff;
+  height: 100%;
 }
 
 #app #main .section .card .card-body .cards .imagesService img {
   width: 100%;
-  border-radius: 24px 24px 0 0;
+  border-radius: 8px 8px 0 0;
   object-fit: cover;
   max-height: 320px;
 }
@@ -36,44 +58,40 @@
 @media screen and (min-width: 0px) {
   #app #main .section .card .card-body .cards {
     width: 100%;
-  }
-  #app #main .section .card .card-body .cards:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 }
 
 @media screen and (min-width: 576px) {
   #app #main .section .card .card-body .cards {
-    margin: 2rem 1rem;
-    width: 43%;
-  }
-  #app #main .section .card .card-body .cards:not(:last-child) {
-    margin-bottom: 0;
+    margin-top: 0rem;
+    margin: .8rem .8rem;
+    width: 44.4%;
   }
 }
 
 @media screen and (min-width: 992px) {
   #app #main .section .card .card-body .cards {
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
     width: 29.6%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   #app #main .section .card .card-body .cards {
-    margin: 1rem .5rem;
-    width: 31.3%;
+    margin: 1   rem .8rem;
+    width: 30%;
   }
 }
 
 @media screen and (min-width: 1400px) {
   #app #main .section .card .card-body .cards {
-    width: 23.3%;
+    width: 30.7%;
   }
 }
 
 @media screen and (min-width: 1900px) {
   #app #main .section .card .card-body .cards {
-    width: 18.9%;
+    width: 18.2%;
   }
 }
