@@ -12,7 +12,10 @@
 #app #main .section .card .card-header .imgProfile img {
   width: 100%;
   max-width: 224px;
+  max-height: 224px;
   border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
 }
 
 #app #main .section .card .card-header .btnChange {

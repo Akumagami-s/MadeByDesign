@@ -80,18 +80,18 @@
 @media screen and (min-width: 1200px) {
   #app #main .section .card .card-body .cards {
     margin: 1   rem .8rem;
-    width: 30%;
+    width: 29.2%;
   }
 }
 
 @media screen and (min-width: 1400px) {
   #app #main .section .card .card-body .cards {
-    width: 30.7%;
+    width: 29.9%;
   }
 }
 
 @media screen and (min-width: 1900px) {
   #app #main .section .card .card-body .cards {
-    width: 18.2%;
+    width: 17.8%;
   }
 }
