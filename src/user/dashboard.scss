@@ -39,7 +39,6 @@
                                 width: 100%;
                                 border-radius: 8px 8px 0 0;
                                 object-fit: cover;
-                                max-height: 320px;
                             }
                         }
                         .detailService {
@@ -71,6 +70,12 @@
                         .cards {
                             width: 100%;
                             margin-top: 1rem;
+
+                            .imagesService {
+                                img {
+                                    max-height: 180px;
+                                }
+                            }
                         }
                     }
                 }
@@ -89,6 +94,11 @@
                             margin-top: 0rem;
                             margin: .8rem .8rem;
                             width: 44.4%;
+                            .imagesService {
+                                img {
+                                    max-height: 136px;
+                                }
+                            }
                         }
                     }
                 }
@@ -106,6 +116,11 @@
                         .cards {
                             margin: 1rem 1rem;
                             width: 29.6%;
+                            .imagesService {
+                                img {
+                                    max-height: 166px;
+                                }
+                            }
                         }
                     }
                 }
@@ -123,6 +138,11 @@
                         .cards {
                             margin: 1   rem .8rem;
                             width: 29.2%;
+                            .imagesService {
+                                img {
+                                    max-height: 178px;
+                                }
+                            }
                         }
                     }
                 }
