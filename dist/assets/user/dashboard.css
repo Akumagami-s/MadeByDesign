@@ -23,7 +23,7 @@
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
 }
 
 #app #main .section .card .card-body .cards {
@@ -75,6 +75,12 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  #app #main .section .card .card-body .cards .imagesService img {
+    max-height: 162px;
+  }
+}
+
 @media screen and (min-width: 992px) {
   #app #main .section .card .card-body .cards {
     margin: 1rem 1rem;
@@ -91,13 +97,16 @@
     width: 29.2%;
   }
   #app #main .section .card .card-body .cards .imagesService img {
-    max-height: 178px;
+    max-height: 158px;
   }
 }
 
 @media screen and (min-width: 1400px) {
   #app #main .section .card .card-body .cards {
     width: 29.9%;
+  }
+  #app #main .section .card .card-body .cards .imagesService img {
+    max-height: 186px;
   }
 }
 

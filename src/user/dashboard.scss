@@ -27,7 +27,7 @@
                     display: flex;
                     width: 100%;
                     flex-wrap: wrap;
-                    justify-content: center;
+                    justify-content: start;
                     .cards {
                         width: 100%;
                         // box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
@@ -107,6 +107,26 @@
     }
 }
 
+@media screen and (min-width : 768px) {
+    #app {
+        #main {
+            .section {
+                .card {
+                    .card-body {
+                        .cards {
+                            .imagesService {
+                                img {
+                                    max-height: 162px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (min-width : 992px) {
     #app {
         #main {
@@ -140,7 +160,7 @@
                             width: 29.2%;
                             .imagesService {
                                 img {
-                                    max-height: 178px;
+                                    max-height: 158px;
                                 }
                             }
                         }
@@ -159,6 +179,12 @@
                     .card-body {
                         .cards {
                             width: 29.9%;
+
+                            .imagesService {
+                                img {
+                                    max-height: 186px;
+                                }
+                            }
                         }
                     }
                 }
