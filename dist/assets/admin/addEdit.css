@@ -1,0 +1,10 @@
+.form-label {
+  color: #FFB647;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+  .form {
+    margin-bottom: 1rem !important;
+  }
+}
